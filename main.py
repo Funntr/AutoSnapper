@@ -31,18 +31,18 @@ while True:
     username = ""  # Enter Username here
     if keyboard.is_pressed('delete'):
         break
-    pyautogui.moveTo(993, 485, duration=0.0)
+    pyautogui.moveTo(747, 541, duration=0.0)
     pyautogui.leftClick()
-    pyautogui.moveTo(990, 815, duration=0.0)
+    pyautogui.moveTo(747, 541, duration=0.0)
     pyautogui.leftClick()
-    pyautogui.moveTo(1118, 838, duration=0.0)
+    pyautogui.moveTo(820, 568, duration=0.0)
     pyautogui.leftClick()
-    pyautogui.moveTo(923, 222, duration=0.0)
+    pyautogui.moveTo(730, 235, duration=0.0)
     pyautogui.leftClick()
     pyautogui.typewrite(username, interval=0.0)
-    pyautogui.moveTo(977, 311, duration=0.0)
+    pyautogui.moveTo(753, 571, duration=0.0)
     pyautogui.leftClick()
-    pyautogui.moveTo(985, 848, duration=0.0)
+    pyautogui.moveTo(747, 541, duration=0.0)
     pyautogui.leftClick()
     # time.sleep(1)
     snapsSent = snapsSent + 1
